@@ -2,7 +2,7 @@
 
 Welcome to the **Pyflo Projects** repository!
 
-This repository is a personal collection of code examples and basic projects inspired by the book **Pyflo**, which covers foundational concepts in Python programming. Here, you'll find a variety of scripts and projects that demonstrate key Python techniques and serve as practical exercises for learning and reinforcing Python basics.
+This repository is a personal collection of code examples and basic projects inspired by the book **Pyflo** (https://pyflo.net/), which covers foundational concepts in Python programming. Here, you'll find a variety of scripts and projects that demonstrate key Python techniques and serve as practical exercises for learning and reinforcing Python basics.
 
 ## Purpose
 
