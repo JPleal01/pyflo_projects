@@ -1,0 +1,31 @@
+# First task
+print ('''#####-----
+#####-----
+----------
+----------''')
+
+# Second task
+
+width = input("Flag width:\n")
+width = int(width)
+x = '#' * int(width /2 )
+z = '-' * int(width /2 )
+print(x+z)
+print(x+z)
+print(z+z)
+print(z+z)
+
+#Third task
+
+width = input("Flag width:\n")
+width = int(width)
+height = input("Flag height:\n")
+height = int(height)
+x = '#' * int(width/2)
+z = '-' * int(width/2)
+y = height / 2
+for i in range(height):
+    if (i < y):
+        print(x+z)
+    else:
+        print (z+z)
