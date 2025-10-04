@@ -1,0 +1,19 @@
+# This code creates the todo.txt file for you to test with.
+# You can change what gets written to test various scenarios!
+f = open('todo.txt', 'w')
+f.write('do laundry\ngo to gym\n')
+f.close()
+
+def remove_from_todo_list(number):
+    todo_list = open ('todo.txt', 'r')
+    i = 1
+    txt_aux = ''
+    for line in todo_list:
+        if number != i:
+            txt_aux+= line
+        i+=1
+        
+    todo_list.close()
+    todo_list = open ('todo.txt', 'w')
+    todo_list.write(txt_aux)
+            
