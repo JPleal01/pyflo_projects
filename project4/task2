@@ -1,0 +1,13 @@
+# This code creates the todo.txt file for you to test with.
+# You can change what gets written to test various scenarios!
+f = open('todo.txt', 'w')
+f.write('do laundry\ngo to gym\n')
+f.close()
+  
+def add_to_todo_list(item):
+    todo_list = open ("todo.txt", 'a')
+    todo_list.write(item+ "\n")
+    todo_list.close()
+    
+
+add_to_todo_list('Do Laundry')
