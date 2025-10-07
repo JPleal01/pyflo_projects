@@ -1,0 +1,27 @@
+# Fourth task
+
+def annual_percent (x, y):
+    annual_spend = x
+    salary = y
+    tp = (annual_spend/salary)*100
+    return tp
+    
+annual_bills = bills*12
+annual_housing = housing * 12
+annual_food = food*52
+
+
+housing_percent = annual_percent(annual_housing, salary)
+bills_percent=annual_percent(annual_bills,salary)
+food_percent=annual_percent(annual_food,salary)
+travel_percent=annual_percent(travel ,salary)
+tax_percent = annual_percent(tax, salary)
+
+extra =salary-(annual_housing +annual_bills+annual_food+travel+tax)
+
+print(housing_percent)
+print(bills_percent)
+print(food_percent)
+print(travel_percent)
+print(tax_percent)
+print(extra_percent)
