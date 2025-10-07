@@ -1,0 +1,8 @@
+# Third task 
+
+def reverse_shoe(shoe_string):
+    new_shoe_string = ''
+    for i in shoe_string[::-1]:
+        new_shoe_string = new_shoe_string + i
+        
+    return new_shoe_string
