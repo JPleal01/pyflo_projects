@@ -39,3 +39,16 @@ def print_legs(height, shoe):
     for i in range(height):
         print('   ||  ||')
     print(f' {shoe}  {rreverse_shoe}')
+
+def main():
+    print('Welcome to the custom character creator tool!')
+    height = int(input('Overall character height: '))
+    hair = input('Character for the hair: ')
+    eye = input('Character for the eyes: ')
+    arm = input('Character for the arms: ')
+    shoe = input('4-character string for the shoes: ')
+    segment = (height - 11) // 2
+    print()
+    print_head(hair, eye)
+    print_body(segment, arm)
+    print_legs(segment, shoe)
