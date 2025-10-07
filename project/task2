@@ -1,0 +1,10 @@
+# Second task
+
+width = input("Flag width:\n")
+width = int(width)
+x = '#' * int(width /2 )
+z = '-' * int(width /2 )
+print(x+z)
+print(x+z)
+print(z+z)
+print(z+z)
