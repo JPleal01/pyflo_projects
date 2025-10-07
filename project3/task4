@@ -1,0 +1,8 @@
+# Fourth task
+
+def print_legs(height, shoe):
+    rreverse_shoe = reverse_shoe(shoe)
+    print('    ====')
+    for i in range(height):
+        print('   ||  ||')
+    print(f' {shoe}  {rreverse_shoe}')
