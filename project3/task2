@@ -1,0 +1,8 @@
+
+# Second task
+
+def print_body(height, arm):
+    print('    XX')
+    print('#' + arm * 4 + 'XX' + arm *4 +'#')
+    for i in range(height):
+        print('    XXXX')
