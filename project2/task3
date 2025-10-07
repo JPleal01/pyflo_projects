@@ -1,0 +1,15 @@
+# Third task
+
+def taxvalue (x):
+    salary = x
+    if salary<= 10000:
+        return salary*0.05
+    if salary> 10000 and salary <= 40000:
+        return salary*0.1
+    if salary> 40000 and salary<= 80000:
+        return salary*0.15
+    if salary> 80000:
+        return salary*0.2
+        
+tax = taxvalue(salary)
+print(round(tax,2))
