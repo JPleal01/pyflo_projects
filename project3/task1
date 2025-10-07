@@ -1,0 +1,15 @@
+# First task
+
+def print_head(hair, eye):
+    hair = hair
+    eye = eye
+    full_hair = hair*12
+    
+    print(full_hair)
+    print(hair + '|        |'+ hair)
+    print(hair + '|  ' + eye + '  ' + eye + '  |' + hair)
+    print(' |   /\   |' )
+    print(' |        |' )
+    print(' \  \'--\'  /')
+    print('   ------')
+
