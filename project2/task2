@@ -1,0 +1,19 @@
+# Second task
+
+def isntvalid (x):
+    for i in x:
+        if i.isnumeric() == False and i != '.' :
+            return True
+        else:
+            return False
+        
+if isntvalid(salary) or isntvalid(housing) or isntvalid(bills) or isntvalid(food) or isntvalid(travel):
+    print('Invalid input, please try again.')
+else:
+    print('All inputs confirmed valid.')
+    
+salarys = float(salary)
+housings = float(housing)
+billss = float(bills)
+foods = float (food)
+travels = float(travel)
